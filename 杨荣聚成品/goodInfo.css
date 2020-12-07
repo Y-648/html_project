@@ -1,0 +1,13 @@
+.top-bar .top-info .logo{
+    margin-left: 40px;
+}
+.top-bar .top-info .logo a{
+    display: inline-block;
+    text-indent: -9999em;
+}
+.top-bar .top-info .logo .logo-lol{
+    width: 147px;
+    height: 74px;
+    background: url(./image/logo-lol.png) no-repeat;
+    margin-top: 10px;
+}

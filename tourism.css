@@ -1,0 +1,244 @@
+ *{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 12px;
+}
+:link, :visited, a {
+    text-decoration: none;
+}
+.layer_box{
+    margin: 0 auto 30px;
+    margin-top: 20px;
+    width:950px;
+    height: 418px;
+    overflow: hidden;
+}
+.layer_header{
+    height: 32px;
+    border-bottom: 3px solid #eceef4;
+    position: relative;
+    font-family: "microsoft yahei";
+    margin-bottom: 15px;
+}
+.layer_header h2{
+    width: 230px;
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    height: 32px;
+    line-height: 32px;
+    padding-left: 10px;
+}
+.layer_header .tabs{
+    float: left;
+    font-size: 14px;
+    color: #666;
+    list-style: none;
+}
+.layer_header .tabs li{
+    float: left;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    margin-right: 18px;
+    overflow: visible;
+}
+.layer_header .tabs li a{
+    font-size: 15px;
+    padding: 0 5px 3px;
+    float: left;
+    color: #222;
+}
+.layer_header .tabs .current a{
+    color: #e15b38;
+    padding-bottom: 0;
+    border-bottom: 3px solid #e15b38;
+}
+.layer_header .more{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 12px;
+    height: 32px;
+    line-height: 32px;
+    color: #999;
+    font-family: "宋体";
+}
+.layer_header .more a{
+    color: #999;
+}
+.clearfix:after {
+    content: '.';
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.layer_body_list{
+    height: 368px;
+    position: relative;
+    z-index: 0;
+}
+.layer_body{
+    left: 0;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    overflow: visible;
+}
+.body_left{
+    float: left;
+    width: 225px;
+    position: relative;
+}
+.body_left h4{
+    font-weight: bold;
+    font-size: 14px;
+    color: #222;
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+.body_left .hot_city{
+    border-bottom: 1px dotted #d7d7d7;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    margin-right: 10px;    
+}
+.body_left .hot_city li{
+    list-style: none;
+    background: url('./image/titpoint.png') no-repeat left center;
+    float: left;
+    padding-left: 7px;
+    width: 94px;
+    margin-bottom: 7.5px;
+    overflow: visible;
+}
+.body_left .hot_city li a{
+    font-size: 13px;
+    color: #333;
+    position: relative;
+    float: left;
+}
+.body_right{
+    width: 725px;
+    border-left: none;
+    height: 368px;
+    overflow: hidden;
+    float: right;
+}
+.body_right .tab_list .pro_item{
+    margin: 0 2px 20px 14.6px;
+    width: 225px;
+    float: left;
+    position: relative;
+    display: inline;
+    height: 165px;
+    background: #fff;
+    padding-bottom: 5px;
+}
+.pro_item:hover{
+    box-shadow:0px 3px 5px #f9dad9;
+}
+.pro_item .pro_pic{
+    width: 225px;
+    height: 127px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+.pro_item .product-star{
+    position: absolute;
+    z-index: 99;
+    background-color: rgba(0,0,0,0.25);
+    height: 14px;
+    border-top-left-radius: 0em;
+    border-top-right-radius: 8em;
+    border-bottom-right-radius: 8em;
+    border-bottom-left-radius: 0em;
+}
+.pro_item .product-star .lev-star{
+    float: left;
+    position: static;
+    background: url('./image/03.png') 0 2px;
+    background-repeat: repeat-x;
+    height: 14px;
+    margin-left: 2px;
+}
+.pro_item .flag_icon{
+    min-width: 64px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.pro_item .flag_icon .flag_niuzhuan{
+    display: block;
+    background: url('./image/biaoqian.jpg') 0 0 no-repeat;
+    height: 20px;
+    width: 64px;
+}
+.pro_pic img{
+    width: 225px;
+    height: 127px;
+}
+.pro_pic .pro_mess_bg{
+    height: 40px;
+    width: 225px;
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    background: #38414c;
+    opacity: 0.75;
+}
+.pro_pic .pro_mess{
+    height: 38px;
+    width: 220px;
+    position: absolute;
+    left: 5px;
+    bottom: 0px;
+    overflow: hidden;
+}
+.pro_pic .pro_mess a{
+    color: #fff;
+    width: 217px;
+    height: 42px;
+    display: block;
+    line-height: 18px;
+    overflow: hidden;
+}
+.pro_mess a span{
+    font-weight: bold;
+    color: #fff;
+    line-height: 18px;
+}
+.pro_infor{
+    line-height: 26px;
+}
+.pro_infor .price{
+    float: left;
+    color: #f60;
+    font-size: 14px;
+    padding-left: 5px;
+}
+.pro_infor .price em{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: arial;
+    margin-left: -3px;
+}
+.pro_infor .price i{
+    font-size: 12px;
+    font-style: normal;
+}
+.pro_infor .satisfaction{
+    float: right;
+    color: #999;
+    display: inline;
+    margin-right: 5px;
+    position: relative;
+    top: 2px;
+    padding: 0;
+}

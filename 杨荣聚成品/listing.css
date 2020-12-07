@@ -1,0 +1,192 @@
+.breadcrumb{
+    height: 50px;
+    line-height: 50px;
+    font-size: 14px;
+    color: #999;
+}
+.breadcrumb .bcb-first{
+    color: #333;
+}
+.list-filter{
+    margin-bottom: 10px;
+    padding: 12px 50px 0;
+    background: #fff;
+    height: auto;
+}
+.list-filter .fltbox{
+    position: relative;
+    width: 100%;
+    padding: 11px 0;
+    height: auto;
+    border-bottom: 1px solid #eee;
+    overflow: hidden;
+}
+.fltbox .dj_class_ul{
+    width: 1115px;
+    height: auto;
+    font-size: 14px;
+}
+.fltbox dt{
+    float: left;
+    color: #999;
+    line-height: 30px;
+}
+.fltbox dd{
+    float: left;
+    padding: 0 20px;
+    color: #666;
+    line-height: 30px;
+    cursor: pointer;
+}
+.fltbox .cur{
+    color: #333;
+    font-weight: bold;
+}
+.sort-filter{
+    border-bottom: none ;
+}
+.fltbox .sortdl{
+width: auto;
+}
+.fltbox .i-arrgray{
+    display: inline-block;
+    width: 8px;
+    height: 12px;
+    background-position: -79px -64px;
+    vertical-align: middle;
+}
+.fltbox .i-check{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-position: -2px -2px;
+    vertical-align: middle;
+}
+.good-list{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    background: #fff;
+}
+.good-list ul{
+    margin-left: 40px;
+    width: 1208px;
+    height: auto;
+}
+.good-list ul li{
+    margin: 0 10px 20px;
+    float: left;
+    width: 280px;
+    height: 356px;
+    border: 1px solid #eee;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    transition: all .2s linear;
+}
+.good-list ul li:hover {
+    z-index: 2;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+    transform: translate3d(0, -2px, 0);
+}
+.good-list ul li .i-mark{
+    position: absolute;
+    top: -1px;
+    right: 20px;
+    z-index: 10;
+    padding: 0 10px 7px;
+    width: 28px;
+    height: 40px;
+    background-position: -279px -85px;
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+    font-weight: bold;
+    display: table;
+}
+.good-list ul li .mark-txt{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 14px;
+}
+.good-list ul li img{
+    display: block;
+    width: 280px;
+    height: 268px;
+}
+.good-list .good-info{
+    margin-top: 18px;
+    text-align: center;
+    overflow: hidden;
+}
+.good-list .good-info{
+    font-size: 14px;
+    color: #444;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    line-height: 24px;
+}
+.good-list .good-info .good-pri{
+    line-height: 25px;
+    font-size: 16px;
+    color: #f7545f;
+}
+.good-list .good-info .good-pri .old-pri{
+    padding-left: 8px;
+    font-size: 14px;
+    color: #999;
+    text-decoration: line-through;
+}
+.good-list .page{
+    width: 1190px;
+    margin-left: 47px;
+    text-align: left;
+    padding: 30px 0;
+    height: 38px;
+    font-size: 16px;
+    position: relative;
+}
+.good-list .page a{
+    line-height: 38px;
+    display: inline-block;
+    width: 38px;
+    height: 38px;
+    background: #fff;
+    border: 1px solid #eee;
+    text-align: center;
+    margin-left: 4px;
+    color: #5e6360;
+}
+.page .p_prev{
+    right: 50px;
+    position: absolute;
+    top: 30px;
+}
+.page .p_next{
+    position: absolute;
+    top: 30px;
+    right: 0;
+}
+.p_prev a,.p_next a{
+    width: 40px;
+}
+.page .active a{
+    background: #f3bf19;
+    border-color: #f3bf19;
+}
+.ico-center{
+    background: url(./image/ico_center.png) no-repeat;
+}
+.page .ico-arrleft,.page .ico-arrright{
+    margin: 9px auto;
+    display: block;
+    width: 10px;
+    height: 18px;
+}
+.page .ico-arrleft{
+    background-position: -411px -345px;
+}
+.page .ico-arrright{
+    background-position: -429px -345px;
+}
