@@ -15,7 +15,7 @@
         position: relative;
     }
     .ico-comm{
-        background: url('image/ico-comm.png') no-repeat;
+        background: url('../image/ico-comm.png') no-repeat;
     }
      .top-info  .i-jcp{
         width: 158px;
@@ -256,7 +256,7 @@
         float: left;
     }
     .comm-top{
-        background: url('./image/comm-top.png') no-repeat;
+        background: url('../image/comm-top.png') no-repeat;
     }
     .in{
     display: inline-block;
